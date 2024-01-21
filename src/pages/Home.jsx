@@ -1,5 +1,3 @@
-import { Link } from 'react-router-dom';
-
 const Home = () => {
   return (
     <div>
@@ -10,7 +8,6 @@ const Home = () => {
       >
         Home Page
       </h1>
-      <Link to="/starred">Go to the Starred Page</Link>
     </div>
   );
 };
