@@ -54,7 +54,16 @@ const Show = () => {
     );
   }
 
-  return <div>Data is loading</div>;
+  return (
+    <div
+      style={{
+        fontSize: '150px',
+        textAlign: 'center',
+      }}
+    >
+      Data is loading
+    </div>
+  );
 };
 
 export default Show;
