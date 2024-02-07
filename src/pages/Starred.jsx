@@ -15,8 +15,6 @@ const Starred = () => {
     refetchOnWindowFocus: false,
   });
 
-  console.log({ starrredShows });
-
   if (starrredShows?.length === 0) {
     return <div>No shows were Starred</div>;
   }
