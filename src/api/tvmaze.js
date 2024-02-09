@@ -19,7 +19,5 @@ export const getShowByIds = async showIds => {
 
   const result = await Promise.all(promises);
 
-  console.log('result: ', result);
-
   return result;
 };
