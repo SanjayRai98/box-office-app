@@ -1,5 +1,9 @@
 import styled from 'styled-components';
-import { SearchCard, SearchImgWrapper } from '../../common/SearchCard';
+import {
+  AnimateImage,
+  SearchCard,
+  SearchImgWrapper,
+} from '../../common/SearchCard';
 import { StarIcon } from '../../common/StarIcon';
 import { useRef } from 'react';
 import { Link } from 'react-router-dom';
@@ -35,7 +39,7 @@ const ShowCard = ({ name, id, image, summary, onStarMeClick, isStarred }) => {
   return (
     <SearchCard>
       <SearchImgWrapper>
-        <img src={image} alt="Image is not Available"></img>
+        <AnimateImage src={image} alt="Image is not Available"></AnimateImage>
       </SearchImgWrapper>
 
       <h1>{name}</h1>

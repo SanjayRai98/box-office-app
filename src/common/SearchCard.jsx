@@ -26,3 +26,10 @@ export const SearchCard = styled.div`
     margin-bottom: 5px;
   }
 `;
+
+export const AnimateImage = styled.img`
+  &:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s;
+  }
+`;
